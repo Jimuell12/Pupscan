@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity_DogResult">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/ibBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/design_back_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/details" />
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/product_sans_bold"
+            android:text="Scanning Result"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/savetoHistory"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/details"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/vector_btn_download">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/vector_bg_dogresult"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/details" />
+
+        <ImageView
+            android:id="@+id/iv_dogIcon"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/vector_shih_tzu"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/product_sans_bold"
+            android:text="Mixed Breed"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/product_sans_regular"
+            android:gravity="center"
+            android:text="The dog you scanned looks like a mix of multiple breeds."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView9"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        </TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:paddingBottom="16dp"
+            android:background="@drawable/design_rounded_softblue_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+            <ImageView
+                android:id="@+id/iv_dogIcon_1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/vector_dog_affenpinscher"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_dogName_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/product_sans_bold"
+                android:maxLines="2"
+                android:text="Cheesepeake Bay Retriever"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toTopOf="@+id/tv_percentage_1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/iv_dogIcon_1"
+                app:layout_constraintTop_toTopOf="@+id/iv_dogIcon_1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_percentage_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="43.7% Match"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_dogIcon_1"
+                app:layout_constraintStart_toEndOf="@+id/iv_dogIcon_1"
+                app:layout_constraintTop_toBottomOf="@+id/tv_dogName_1">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/iv_dogIcon_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/vector_dog_lhasa_apso"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_dogIcon_1">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_dogName_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/product_sans_bold"
+                android:maxLines="2"
+                android:text="Lhasa Apso"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toTopOf="@+id/tv_percentage_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/iv_dogIcon_2"
+                app:layout_constraintTop_toTopOf="@+id/iv_dogIcon_2">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_percentage_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="30.5% Match"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_dogIcon_2"
+                app:layout_constraintStart_toEndOf="@+id/iv_dogIcon_2"
+                app:layout_constraintTop_toBottomOf="@+id/tv_dogName_2">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/iv_dogIcon_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/vector_dog_yorkshire_terrier"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_dogIcon_2">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_dogName_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/product_sans_bold"
+                android:maxLines="2"
+                android:text="Yorkshire Terrier"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_percentage_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/iv_dogIcon_3"
+                app:layout_constraintTop_toTopOf="@+id/iv_dogIcon_3">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_percentage_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="25.8% Match"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_dogIcon_3"
+                app:layout_constraintStart_toEndOf="@+id/iv_dogIcon_3"
+                app:layout_constraintTop_toBottomOf="@+id/tv_dogName_3">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

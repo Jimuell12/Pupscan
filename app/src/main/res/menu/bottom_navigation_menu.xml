@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Breed_Scanner"
+        android:title="Scanner"
+
+        android:icon="@drawable/vector_scanner_40"/>
+
+    <item
+        android:id="@+id/BCS_History"
+        android:title="BCS History"
+        android:icon="@drawable/vector_dashboard_40"
+         />
+
+    <item
+        android:id="@+id/Breed_History"
+        android:title="Breed History"
+        android:icon="@drawable/vector_history_40" />
+</menu>

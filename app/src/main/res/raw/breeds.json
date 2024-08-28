@@ -1,0 +1,1468 @@
+{
+  "breeds": {
+    "001": {
+      "name": "Affenpinscher",
+      "details": {
+        "height": "9-11 inches",
+        "weight": "6-13 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Senior, Dogs",
+        "temperament": "Playful, Curious, Stubborn"
+      },
+      "image": "vector_dog_affenpinscher"
+    },
+    "002": {
+      "name": "Afghan Hound",
+      "details": {
+        "height": "25-27 inches",
+        "weight": "50-60 pounds",
+        "lifespan": "12-18 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Aloof, Dignified, Independent"
+      },
+      "image": "vector_dog_afghan_hound"
+    },
+    "003": {
+      "name": "Airedale Terrier",
+      "details": {
+        "height": "21-23 inches",
+        "weight": "40-65 pounds",
+        "lifespan": "10-13 years",
+        "goodWith": "Children, Dogs (with supervision)",
+        "temperament": "Outgoing, Courageous, Intelligent"
+      },
+      "image": "vector_dog_airedale_terrier"
+    },
+    "004": {
+      "name": "Akita",
+      "details": {
+        "height": "24-28 inches",
+        "weight": "70-130 pounds",
+        "lifespan": "10-15 years",
+        "goodWith": "Children (older), Dogs (in household)",
+        "temperament": "Docile, Alert, Responsive"
+      },
+      "image": "vector_dog_akita"
+    },
+    "005": {
+      "name": "Alaskan Malamute",
+      "details": {
+        "height": "23-25 inches (male), 22-24 inches (female)",
+        "weight": "85-120 pounds (male), 75-85 pounds (female)",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Devoted, Dignified"
+      },
+      "image": "vector_dog_alaskan_malamute"
+    },
+    "006": {
+      "name": "American Eskimo Dog",
+      "details": {
+        "height": "9-12 inches (toy), 12-15 inches (miniature), 15-19 inches (standard)",
+        "weight": "6-10 pounds (toy), 10-20 pounds (miniature), 25-35 pounds (standard)",
+        "lifespan": "13-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Playful, Intelligent, Alert"
+      },
+      "image": "vector_dog_american_eskimo_dog"
+    },
+    "007": {
+      "name": "American Foxhound",
+      "details": {
+        "height": "21-25 inches",
+        "weight": "65-75 pounds",
+        "lifespan": "11-13 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Sweet-Tempered, Independent"
+      },
+      "image": "vector_dog_american_foxhound"
+    },
+    "008": {
+      "name": "American Staffordshire Terrier",
+      "details": {
+        "height": "17-19 inches",
+        "weight": "40-70 pounds",
+        "lifespan": "12-16 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Tenacious, Courageous, Devoted"
+      },
+      "image": "vector_dog_american_staffordshire_terrier"
+    },
+    "009": {
+      "name": "American Water Spaniel",
+      "details": {
+        "height": "15-18 inches",
+        "weight": "25-45 pounds",
+        "lifespan": "10-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Versatile, Intelligent, Protective"
+      },
+      "image": "vector_dog_american_water_spaniel"
+    },
+    "010": {
+      "name": "Anatolian Shepherd Dog",
+      "details": {
+        "height": "27-29 inches (male), 25-27 inches (female)",
+        "weight": "110-150 pounds (male), 80-120 pounds (female)",
+        "lifespan": "11-13 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Independent, Protective, Territorial"
+      },
+      "image": "vector_dog_anatolian_shepherd_dog"
+    },
+    "011": {
+      "name": "Australian Cattle Dog",
+      "details": {
+        "height": "18-20 inches (male), 17-19 inches (female)",
+        "weight": "35-50 pounds",
+        "lifespan": "12-16 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Cautious, Energetic, Loyal"
+      },
+      "image": "vector_dog_australian_cattle_dog"
+    },
+    "012": {
+      "name": "Australian Shepherd",
+      "details": {
+        "height": "20-23 inches (male), 18-21 inches (female)",
+        "weight": "50-65 pounds (male), 40-55 pounds (female)",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Smart, Work-Oriented, Energetic"
+      },
+      "image": "vector_dog_australian_shepherd"
+    },
+    "013": {
+      "name": "Australian Terrier",
+      "details": {
+        "height": "10-11 inches",
+        "weight": "14 pounds",
+        "lifespan": "11-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Spirited, Alert, Courageous"
+      },
+      "image": "vector_dog_australian_terrier"
+    },
+    "014": {
+      "name": "Basenji",
+      "details": {
+        "height": "16-17 inches",
+        "weight": "22-24 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Curious, Playful, Alert"
+      },
+      "image": "vector_dog_basenji"
+    },
+    "015": {
+      "name": "Basset Hound",
+      "details": {
+        "height": "12-15 inches",
+        "weight": "40-65 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Affectionate, Placid"
+      },
+      "image": "vector_dog_basset_hound"
+    },
+    "016": {
+      "name": "Beagle",
+      "details": {
+        "height": "13-15 inch",
+        "weight": "20-30 lbs",
+        "lifespan": "10-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Curious, Merry"
+      },
+      "image": "vector_dog_beagle"
+    },
+    "017": {
+      "name": "Bearded Collie",
+      "details": {
+        "height": "20-22 inches (male), 20-21 inches (female)",
+        "weight": "45-55 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Self-Reliant, Confident, Outgoing"
+      },
+      "image": "vector_dog_bearded_collie"
+    },
+    "018": {
+      "name": "Beauceron",
+      "details": {
+        "height": "25.5-27.5 inches (male), 24-26.5 inches (female)",
+        "weight": "65-100 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Gentle, Fearless, Obedient"
+      },
+      "image": "vector_dog_beauceron"
+    },
+    "019": {
+      "name": "Bedlington Terrier",
+      "details": {
+        "height": "16-17 inches",
+        "weight": "17-23 pounds",
+        "lifespan": "11-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Intelligent, Spirited"
+      },
+      "image": "vector_dog_bedlington_terrier"
+    },
+    "020": {
+      "name": "Belgian Malinois",
+      "details": {
+        "height": "24-26 inches (male), 22-24 inches (female)",
+        "weight": "60-80 pounds (male), 40-60 pounds (female)",
+        "lifespan": "14-16 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Confident, Smart, Hardworking"
+      },
+      "image": "vector_dog_belgian_malinois"
+    },
+    "021": {
+      "name": "Belgian Sheepdog",
+      "details": {
+        "height": "24-26 inches (male), 22-24 inches (female)",
+        "weight": "60-75 pounds (male), 40-60 pounds (female)",
+        "lifespan": "10-12 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Loyal, Intelligent, Trainable"
+      },
+      "image": "vector_dog_belgian_sheepdog"
+    },
+    "022": {
+      "name": "Belgian Tervuren",
+      "details": {
+        "height": "24-26 inches (male), 22-24 inches (female)",
+        "weight": "60-75 pounds (male), 40-60 pounds (female)",
+        "lifespan": "10-12 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Energetic, Alert, Intelligent"
+      },
+      "image": "vector_dog_belgian_tervuren"
+    },
+    "023": {
+      "name": "Bernese Mountain Dog",
+      "details": {
+        "height": "25-27.5 inches (male), 23-26 inches (female)",
+        "weight": "80-115 pounds (male), 70-95 pounds (female)",
+        "lifespan": "6-8 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Intelligent, Gentle"
+      },
+      "image": "vector_dog_bernese_mountain_dog"
+    },
+    "024": {
+      "name": "Bichon Frise",
+      "details": {
+        "height": "9.5-11.5 inches",
+        "weight": "12-18 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Playful, Affectionate"
+      },
+      "image": "vector_dog_bichon_frise"
+    },
+    "025": {
+      "name": "Black and Tan Coonhound",
+      "details": {
+        "height": "23-27 inches",
+        "weight": "65-110 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Intelligent, Good-natured"
+      },
+      "image": "vector_dog_black_and_tan_coonhound"
+    },
+    "026": {
+      "name": "Black Russian Terrier",
+      "details": {
+        "height": "26-30 inches (male), 25-28 inches (female)",
+        "weight": "100-150 pounds (male), 80-120 pounds (female)",
+        "lifespan": "10-14 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Confident, Calm, Courageous"
+      },
+      "image": "vector_dog_black_russian_terrier"
+    },
+    "027": {
+      "name": "Bloodhound",
+      "details": {
+        "height": "25-27 inches (male), 23-25.5 inches (female)",
+        "weight": "90-110 pounds (male), 80-100 pounds (female)",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Affectionate, Stubborn"
+      },
+      "image": "vector_dog_bloodhound"
+    },
+    "028": {
+      "name": "Bluetick Coonhound",
+      "details": {
+        "height": "22-27 inches",
+        "weight": "45-80 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Intelligent, Active"
+      },
+      "image": "vector_dog_bluetick_coonhound"
+    },
+    "029": {
+      "name": "Border Collie",
+      "details": {
+        "height": "19-22 inches",
+        "weight": "30-55 pounds",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Tenacious, Intelligent, Energetic"
+      },
+      "image": "vector_dog_border_collie"
+    },
+    "030": {
+      "name": "Border Terrier",
+      "details": {
+        "height": "10-11 inches",
+        "weight": "11.5-15.5 pounds",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Alert, Obedient"
+      },
+      "image": "vector_dog_border_terrier"
+    },
+    "031": {
+      "name": "Borzoi",
+      "details": {
+        "height": "28 inches & up (male), 26 inches & up (female)",
+        "weight": "75-105 pounds",
+        "lifespan": "9-14 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Reserved, Gentle, Intelligent"
+      },
+      "image": "vector_dog_borzoi"
+    },
+    "032": {
+      "name": "Boston Terrier",
+      "details": {
+        "height": "15-17 inches",
+        "weight": "12-25 pounds",
+        "lifespan": "11-13 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Intelligent, Lively"
+      },
+      "image": "vector_dog_boston_terrier"
+    },
+    "033": {
+      "name": "Bouvier des Flandres",
+      "details": {
+        "height": "23.5-27.5 inches (male), 22-26.5 inches (female)",
+        "weight": "80-115 pounds (male), 60-80 pounds (female)",
+        "lifespan": "10-15 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Protective, Gentle, Loyal"
+      },
+      "image": "vector_dog_bouvier_des_flandres"
+    },
+    "034": {
+      "name": "Boxer",
+      "details": {
+        "height": "23-25 inches (male), 21.5-23.5 inches (female)",
+        "weight": "65-80 pounds (male), 50-65 pounds (female)",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Fun-Loving, Active, Devoted"
+      },
+      "image": "vector_dog_boxer_dog"
+    },
+    "035": {
+      "name": "Boykin Spaniel",
+      "details": {
+        "height": "15.5-18 inches",
+        "weight": "25-40 pounds",
+        "lifespan": "10-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Energetic, Intelligent"
+      },
+      "image": "vector_dog_boykin_spaniel"
+    },
+    "036": {
+      "name": "Briard",
+      "details": {
+        "height": "22-27 inches (male), 21-25.5 inches (female)",
+        "weight": "70-100 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Fearless, Good-natured, Protective"
+      },
+      "image": "vector_dog_briard"
+    },
+    "037": {
+      "name": "Brittany",
+      "details": {
+        "height": "17.5-20.5 inches",
+        "weight": "30-40 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Agile, Adaptable, Energetic"
+      },
+      "image": "vector_dog_brittany"
+    },
+    "038": {
+      "name": "Brussels Griffon",
+      "details": {
+        "height": "7-10 inches",
+        "weight": "8-10 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Alert, Curious, Loyal"
+      },
+      "image": "vector_dog_brussels_griffon"
+    },
+    "039": {
+      "name": "Bull Terrier",
+      "details": {
+        "height": "21-22 inches (male), 20-21 inches (female)",
+        "weight": "55-75 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Playful, Comical, Courageous"
+      },
+      "image": "vector_dog_bull_terrier"
+    },
+    "040": {
+      "name": "Bulldog",
+      "details": {
+        "height": "14-15 inches",
+        "weight": "40-50 pounds",
+        "lifespan": "8-10 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Docile, Willful, Friendly"
+      },
+      "image": "vector_dog_bulldog"
+    },
+    "041": {
+      "name": "Bullmastiff",
+      "details": {
+        "height": "25-27 inches (male), 24-26 inches (female)",
+        "weight": "110-130 pounds (male), 100-120 pounds (female)",
+        "lifespan": "7-9 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Calm, Brave"
+      },
+      "image": "vector_dog_bullmastiff"
+    },
+    "042": {
+      "name": "Cairn Terrier",
+      "details": {
+        "height": "9-10 inches",
+        "weight": "13-18 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Alert, Cheerful, Busy"
+      },
+      "image": "vector_dog_cairn_terrier"
+    },
+    "043": {
+      "name": "Canaan Dog",
+      "details": {
+        "height": "19-24 inches (male), 17-21 inches (female)",
+        "weight": "45-55 pounds (male), 35-45 pounds (female)",
+        "lifespan": "12-15 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Alert, Vigilant, Durable"
+      },
+      "image": "vector_dog_canaan_dog"
+    },
+    "044": {
+      "name": "Cane Corso",
+      "details": {
+        "height": "25-27.5 inches (male), 23.5-26 inches (female)",
+        "weight": "90-120 pounds (male), 80-110 pounds (female)",
+        "lifespan": "9-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Intelligent, Majestic"
+      },
+      "image": "vector_dog_cane_corso"
+    },
+    "045": {
+      "name": "Cardigan Welsh Corgi",
+      "details": {
+        "height": "10.5-12.5 inches",
+        "weight": "25-38 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Devoted, Alert"
+      },
+      "image": "vector_dog_cardigan_welsh_corgi"
+    },
+    "046": {
+      "name": "Cavalier King Charles Spaniel",
+      "details": {
+        "height": "12-13 inches",
+        "weight": "13-18 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Graceful, Gentle"
+      },
+      "image": "vector_dog_cavalier_king_charles_spaniel"
+    },
+    "047": {
+      "name": "Chesapeake Bay Retriever",
+      "details": {
+        "height": "23-26 inches (male), 21-24 inches (female)",
+        "weight": "65-80 pounds (male), 55-70 pounds (female)",
+        "lifespan": "10-13 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Intelligent, Affectionate, Hardworking"
+      },
+      "image": "vector_dog_chesapeake_bay_retriever"
+    },
+    "048": {
+      "name": "Chihuahua",
+      "details": {
+        "height": "6-9 inches",
+        "weight": "2-6 pounds",
+        "lifespan": "12-20 years",
+        "goodWith": "Children (older), Dogs (small sizes)",
+        "temperament": "Charming, Graceful, Sassy"
+      },
+      "image": "vector_dog_chihuahua"
+    },
+    "049": {
+      "name": "Chinese Crested",
+      "details": {
+        "height": "11-13 inches",
+        "weight": "8-12 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Alert, Happy"
+      },
+      "image": "vector_dog_chinese_crested"
+    },
+    "050": {
+      "name": "Chinese Shar-Pei",
+      "details": {
+        "height": "18-20 inches (male), 17-19 inches (female)",
+        "weight": "45-60 pounds (male), 35-50 pounds (female)",
+        "lifespan": "9-11 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Loyal, Independent, Calm"
+      },
+      "image": "vector_dog_chinese_shar_pei"
+    },
+    "051": {
+      "name": "Chow Chow",
+      "details": {
+        "height": "19-22 inches (male), 18-20 inches (female)",
+        "weight": "55-70 pounds",
+        "lifespan": "8-12 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Aloof, Dignified, Loyal"
+      },
+      "image": "vector_dog_chow_chow"
+    },
+    "052": {
+      "name": "Clumber Spaniel",
+      "details": {
+        "height": "17-20 inches",
+        "weight": "55-85 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Affectionate, Dignified"
+      },
+      "image": "vector_dog_clumber_spaniel"
+    },
+    "053": {
+      "name": "Cocker Spaniel",
+      "details": {
+        "height": "15-17 inches",
+        "weight": "20-30 pounds",
+        "lifespan": "10-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Smart, Happy"
+      },
+      "image": "vector_dog_cocker_spaniel"
+    },
+    "054": {
+      "name": "Collie",
+      "details": {
+        "height": "24-26 inches (male), 22-24 inches (female)",
+        "weight": "60-75 pounds (male), 50-65 pounds (female)",
+        "lifespan": "14-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Tenacious, Intelligent, Gentle"
+      },
+      "image": "vector_dog_collie"
+    },
+    "055": {
+      "name": "Curly-Coated Retriever",
+      "details": {
+        "height": "25-27 inches (male), 23-25 inches (female)",
+        "weight": "65-100 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Independent, Intelligent, Lively"
+      },
+      "image": "vector_dog_curly_coated_retriever"
+    },
+    "056": {
+      "name": "Dachshund",
+      "details": {
+        "height": "8-9 inches (standard), 5-6 inches (miniature)",
+        "weight": "16-32 pounds (standard), 11 pounds and under (miniature)",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Clever, lively, Curious"
+      },
+      "image": "vector_dog_dachshund"
+    },
+    "057": {
+      "name": "Dalmatian",
+      "details": {
+        "height": "22-24 inches",
+        "weight": "40-60 pounds",
+        "lifespan": "10-13 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Outgoing, Energetic, Playful"
+      },
+      "image": "vector_dog_dalmatian"
+    },
+    "058": {
+      "name": "Dandie Dinmont Terrier",
+      "details": {
+        "height": "8-11 inches",
+        "weight": "18-24 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children (older), Dogs",
+        "temperament": "Independent, Determined, Fun"
+      },
+      "image": "vector_dog_dandie_dinmont_terrier"
+    },
+    "059": {
+      "name": "Doberman Pinscher",
+      "details": {
+        "height": "26-28 inches (male), 24-26 inches (female)",
+        "weight": "75-100 pounds (male), 60-90 pounds (female)",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Alert, Loyal, Fearless"
+      },
+      "image": "vector_dog_doberman_pinscher"
+    },
+    "060": {
+      "name": "Dogue de Bordeaux",
+      "details": {
+        "height": "23-27 inches",
+        "weight": "120-145 pounds",
+        "lifespan": "5-8 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Courageous, Affectionate, Calm"
+      },
+      "image": "vector_dog_dogue_de_bordeaux"
+    },
+    "061": {
+      "name": "English Cocker Spaniel",
+      "details": {
+        "height": "15-17 inches (male), 14-16 inches (female)",
+        "weight": "26-34 pounds (male), 24-32 pounds (female)",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Smart, Happy"
+      },
+      "image": "vector_dog_english_cocker_spaniel"
+    },
+    "062": {
+      "name": "English Setter",
+      "details": {
+        "height": "25-27 inches (male), 23-25 inches (female)",
+        "weight": "65-80 pounds (male), 55-70 pounds (female)",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Kind, Good-natured"
+      },
+      "image": "vector_dog_english_setter"
+    },
+    "063": {
+      "name": "English Springer Spaniel",
+      "details": {
+        "height": "19-20 inches (male), 18-19 inches (female)",
+        "weight": "40-50 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Playful, Energetic"
+      },
+      "image": "vector_dog_english_springer_spaniel"
+    },
+    "064": {
+      "name": "English Toy Spaniel",
+      "details": {
+        "height": "9-10 inches",
+        "weight": "8-14 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Reserved, Playful"
+      },
+      "image": "vector_dog_english_toy_spaniel"
+    },
+    "065": {
+      "name": "Entlebucher Mountain Dog",
+      "details": {
+        "height": "17-21 inches",
+        "weight": "45-65 pounds",
+        "lifespan": "10-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Loyal, Intelligent, Energetic"
+      },
+      "image": "vector_dog_entlebucher_mountain_dog"
+    },
+    "066": {
+      "name": "Field Spaniel",
+      "details": {
+        "height": "17-18 inches (male), 16-17 inches (female)",
+        "weight": "35-50 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Docile, Independent, Gentle"
+      },
+      "image": "vector_dog_field_spaniel"
+    },
+    "067": {
+      "name": "Finnish Spitz",
+      "details": {
+        "height": "17.5-20 inches (male), 15.5-18 inches (female)",
+        "weight": "31-36 pounds (male), 22-27 pounds (female)",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Playful, Lively, Alert"
+      },
+      "image": "vector_dog_finnish_spitz"
+    },
+    "068": {
+      "name": "Flat-Coated Retriever",
+      "details": {
+        "height": "23-24.5 inches (male), 22-23.5 inches (female)",
+        "weight": "60-70 pounds (male), 55-65 pounds (female)",
+        "lifespan": "8-10 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Optimistic, Outgoing, Independent"
+      },
+      "image": "vector_dog_flat_coated_retriever"
+    },
+    "069": {
+      "name": "French Bulldog",
+      "details": {
+        "height": "11-12 inches",
+        "weight": "16-28 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Adaptable, Playful, Smart"
+      },
+      "image": "vector_dog_french_bulldog"
+    },
+    "070": {
+      "name": "German Pinscher",
+      "details": {
+        "height": "17-20 inches",
+        "weight": "25-35 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Alert, Spirited, Intelligent"
+      },
+      "image": "vector_dog_german_pinscher"
+    },
+    "071": {
+      "name": "German Shepherd Dog",
+      "details": {
+        "height": "24-26 inches (male), 22-24 inches (female)",
+        "weight": "65-90 pounds (male), 50-70 pounds (female)",
+        "lifespan": "7-10 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Loyal, Confident, Courageous"
+      },
+      "image": "vector_dog_german_shepherd_dog"
+    },
+    "072": {
+      "name": "German Shorthaired Pointer",
+      "details": {
+        "height": "23-25 inches (male), 21-23 inches (female)",
+        "weight": "55-70 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Smart, Eager, Excitable"
+      },
+      "image": "vector_dog_german_shorthaired_pointer"
+    },
+    "073": {
+      "name": "German Wirehaired Pointer",
+      "details": {
+        "height": "24-26 inches (male), 22-24 inches (female)",
+        "weight": "60-70 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Intelligent, Energetic"
+      },
+      "image": "vector_dog_german_wirehaired_pointer"
+    },
+    "074": {
+      "name": "Giant Schnauzer",
+      "details": {
+        "height": "25.5-27.5 inches (male), 23.5-25.5 inches (female)",
+        "weight": "60-85 pounds (male), 55-75 pounds (female)",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Strong-willed, Loyal, Intelligent"
+      },
+      "image": "vector_dog_giant_schnauzer"
+    },
+    "075": {
+      "name": "Glen of Imaal Terrier",
+      "details": {
+        "height": "12.5 inches",
+        "weight": "34-36 pounds (male), 32-34 pounds (female)",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Spirited, Agile, Gentle"
+      },
+      "image": "vector_dog_glen_of_imaal_terrier"
+    },
+    "076": {
+      "name": "Golden Retriever",
+      "details": {
+        "height": "23-24 inches (male), 21.5-22.5 inches (female)",
+        "weight": "65-75 pounds (male), 55-65 pounds (female)",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Intelligent, Friendly, Devoted"
+      },
+      "image": "vector_dog_golden_retriever"
+    },
+    "077": {
+      "name": "Gordon Setter",
+      "details": {
+        "height": "27 inches (male), 25 inches (female)",
+        "weight": "55-80 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Fearless, Alert, Confident"
+      },
+      "image": "vector_dog_gordon_setter"
+    },
+    "078": {
+      "name": "Great Dane",
+      "details": {
+        "height": "30-34 inches (male), 28-32 inches (female)",
+        "weight": "140-175 pounds (male), 110-140 pounds (female)",
+        "lifespan": "7-10 years",
+        "goodWith": "Children",
+        "temperament": "Friendly, Gentle, Confident"
+      },
+      "image": "vector_dog_great_dane"
+    },
+    "079": {
+      "name": "Great Pyrenees",
+      "details": {
+        "height": "25-32 inch",
+        "weight": "85-160 lbs",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Calm, Gentle, Confident"
+      },
+      "image": "vector_dog_great_pyrenees"
+    },
+    "080": {
+      "name": "Greater Swiss Mountain Dog",
+      "details": {
+        "height": "25.5-28.5 inches (male), 23.5-27 inches (female)",
+        "weight": "105-140 pounds (male), 85-110 pounds (female)",
+        "lifespan": "10-11 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Adaptable, Faithful"
+      },
+      "image": "vector_dog_greater_swiss_mountain_dog"
+    },
+    "081": {
+      "name": "Greyhound",
+      "details": {
+        "height": "28-30 inches (male), 27-28 inches (female)",
+        "weight": "65-70 pounds (male), 60-65 pounds (female)",
+        "lifespan": "10-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Independent, Intelligent"
+      },
+      "image": "vector_dog_greyhound"
+    },
+    "082": {
+      "name": "Havanese",
+      "details": {
+        "height": "8.5-11.5 inches",
+        "weight": "7-13 pounds",
+        "lifespan": "14-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Intelligent, Outgoing"
+      },
+      "image": "vector_dog_havanese"
+    },
+    "083": {
+      "name": "Ibizan Hound",
+      "details": {
+        "height": "23.5-27.5 inches (male), 22.5-26 inches (female)",
+        "weight": "50-55 pounds (male), 45-50 pounds (female)",
+        "lifespan": "10-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Playful, Intelligent, Active"
+      },
+      "image": "vector_dog_ibizan_hound"
+    },
+    "084": {
+      "name": "Icelandic Sheepdog",
+      "details": {
+        "height": "18-20 inches (male), 16.5-18.5 inches (female)",
+        "weight": "30-45 pounds",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Curious, Outgoing, Alert"
+      },
+      "image": "vector_dog_icelandic_sheepdog"
+    },
+    "085": {
+      "name": "Irish Red and White Setter",
+      "details": {
+        "height": "25-27 inches (male), 24-26 inches (female)",
+        "weight": "55-75 pounds",
+        "lifespan": "11-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Energetic, Intelligent"
+      },
+      "image": "vector_dog_irish_red_and_white_setter"
+    },
+    "086": {
+      "name": "Irish Setter",
+      "details": {
+        "height": "27 inches (male), 25 inches (female)",
+        "weight": "70 pounds (male), 60 pounds (female)",
+        "lifespan": "11-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Energetic, Independent"
+      },
+      "image": "vector_dog_irish_setter"
+    },
+    "087": {
+      "name": "Irish Terrier",
+      "details": {
+        "height": "18 inches (male), 17 inches (female)",
+        "weight": "25-27 pounds",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Active, Bred, Respected"
+      },
+      "image": "vector_dog_irish_terrier"
+    },
+    "088": {
+      "name": "Irish Water Spaniel",
+      "details": {
+        "height": "21-24 inches",
+        "weight": "45 pounds (male), 40 pounds (female)",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Adventurous, Intelligent, Daring"
+      },
+      "image": "vector_dog_irish_water_spaniel"
+    },
+    "089": {
+      "name": "Irish Wolfhound",
+      "details": {
+        "height": "32 inches (male), 30 inches (female)",
+        "weight": "140-180 pounds (male), 115-140 pounds (female)",
+        "lifespan": "6-8 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Dignified, Friendly"
+      },
+      "image": "vector_dog_irish_wolfhound"
+    },
+    "090": {
+      "name": "Italian Greyhound",
+      "details": {
+        "height": "13-15 inches",
+        "weight": "7-14 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Intelligent, Agile"
+      },
+      "image": "vector_dog_italian_greyhound"
+    },
+    "091": {
+      "name": "Japanese Chin",
+      "details": {
+        "height": "8-11 inches",
+        "weight": "4-7 pounds",
+        "lifespan": "10-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Charming, Loyal, Independent"
+      },
+      "image": "vector_dog_japanese_chin"
+    },
+    "092": {
+      "name": "Keeshond",
+      "details": {
+        "height": "17-18 inches",
+        "weight": "35-45 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Outgoing, Alert, Friendly"
+      },
+      "image": "vector_dog_keeshond"
+    },
+    "093": {
+      "name": "Kerry Blue Terrier",
+      "details": {
+        "height": "17.5-20 inches (male), 16-19 inches (female)",
+        "weight": "33-40 pounds (male), 29-35 pounds (female)",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Smart, Spirited, Alert"
+      },
+      "image": "vector_dog_kerry_blue_terrier"
+    },
+    "094": {
+      "name": "Komondor",
+      "details": {
+        "height": "25.5-27.5 inches (male), 23.5-25.5 inches (female)",
+        "weight": "100-135 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Loyal, Gentle, Fearless"
+      },
+      "image": "vector_dog_komondor"
+    },
+    "095": {
+      "name": "Kuvasz",
+      "details": {
+        "height": "28-30 inches (male), 26-28 inches (female)",
+        "weight": "100-115 pounds (male), 70-90 pounds (female)",
+        "lifespan": "9-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Clownish, Devoted, Patient"
+      },
+      "image": "vector_dog_kuvasz"
+    },
+    "096": {
+      "name": "Labrador Retriever",
+      "details": {
+        "height": "21-24.5 in",
+        "weight": "55-80 lbs",
+        "lifespan": "10-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Outgoing, Even Tempered, Gentle"
+      },
+      "image": "vector_dog_labrador_retriever"
+    },
+    "097": {
+      "name": "Lakeland Terrier",
+      "details": {
+        "height": "14 inches",
+        "weight": "17 pounds",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Confident, Bold"
+      },
+      "image": "vector_dog_lakeland_terrier"
+    },
+    "098": {
+      "name": "Leonberger",
+      "details": {
+        "height": "28-31.5 inches (male), 25.5-29.5 inches (female)",
+        "weight": "110-170 pounds (male), 90-140 pounds (female)",
+        "lifespan": "8-10 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Adaptable, Gentle, Robust"
+      },
+      "image": "vector_dog_leonberger"
+    },
+    "099": {
+      "name": "Lhasa Apso",
+      "details": {
+        "height": "10-11 inches",
+        "weight": "12-18 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Playful, Obedient, Friendly"
+      },
+      "image": "vector_dog_lhasa_apso"
+    },
+    "100": {
+      "name": "Lowchen",
+      "details": {
+        "height": "12-14 inches",
+        "weight": "9-18 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Playful, Proud"
+      },
+      "image": "vector_dog_lowchen"
+    },
+    "101": {
+      "name": "Maltese",
+      "details": {
+        "height": "8-10 inches",
+        "weight": "4-7 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Playful, Charming"
+      },
+      "image": "vector_dog_maltese"
+    },
+    "102": {
+      "name": "Manchester Terrier",
+      "details": {
+        "height": "15-16 inches",
+        "weight": "12-22 pounds",
+        "lifespan": "15-17 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Bright, Spirited, Keen"
+      },
+      "image": "vector_dog_manchester_terrier"
+    },
+    "103": {
+      "name": "Mastiff",
+      "details": {
+        "height": "30 inches (male), 27.5 inches (female)",
+        "weight": "160-230 pounds (male), 120-170 pounds (female)",
+        "lifespan": "6-10 years",
+        "goodWith": "Children",
+        "temperament": "Gentle, Affectionate, Good-Natured"
+      },
+      "image": "vector_dog_mastiff"
+    },
+    "104": {
+      "name": "Miniature Schnauzer",
+      "details": {
+        "height": "12-14 inches",
+        "weight": "11-20 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Smart, Obedient"
+      },
+      "image": "vector_dog_miniature_schnauzer"
+    },
+    "105": {
+      "name": "Neapolitan Mastiff",
+      "details": {
+        "height": "26-31 inches",
+        "weight": "150-200 pounds",
+        "lifespan": "7-9 years",
+        "goodWith": "Children",
+        "temperament": "Protective, Fearless, Dominant"
+      },
+      "image": "vector_dog_neapolitan_mastiff"
+    },
+    "106": {
+      "name": "Newfoundland",
+      "details": {
+        "height": "28 inches (male), 26 inches (female)",
+        "weight": "130-150 pounds (male), 100-120 pounds (female)",
+        "lifespan": "9-10 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Gentle, Sweet-Natured, Patient"
+      },
+      "image": "vector_dog_newfoundland"
+    },
+    "107": {
+      "name": "Norfolk Terrier",
+      "details": {
+        "height": "9-10 inches",
+        "weight": "11-12 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Fearless, Independent, Spirited"
+      },
+      "image": "vector_dog_norfolk_terrier"
+    },
+    "108": {
+      "name": "Norwegian Buhund",
+      "details": {
+        "height": "18-20 inches",
+        "weight": "26-40 pounds",
+        "lifespan": "13-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Energetic, Friendly, Smart"
+      },
+      "image": "vector_dog_norwegian_buhund"
+    },
+    "109": {
+      "name": "Norwegian Elkhound",
+      "details": {
+        "height": "20.5-21.5 inches (male), 19.5-20.5 inches (female)",
+        "weight": "55-60 pounds (male), 48-55 pounds (female)",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Bold, Energetic, Alert"
+      },
+      "image": "vector_dog_norwegian_elkhound"
+    },
+    "110": {
+      "name": "Norwegian Lundehund",
+      "details": {
+        "height": "12-15 inches",
+        "weight": "20-30 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Energetic, Alert, Loyal"
+      },
+      "image": "vector_dog_norwegian_lundehund"
+    },
+    "111": {
+      "name": "Norwich Terrier",
+      "details": {
+        "height": "9-10 inches",
+        "weight": "11-12 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Sociable, Intelligent, Affectionate"
+      },
+      "image": "vector_dog_norwich_terrier"
+    },
+    "112": {
+      "name": "Nova Scotia Duck Tolling Retriever",
+      "details": {
+        "height": "18-21 inches",
+        "weight": "35-50 pounds",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Energetic, Intelligent, Outgoing"
+      },
+      "image": "vector_dog_nova_scotia_duck_tolling_retriever"
+    },
+    "113": {
+      "name": "Old English Sheepdog",
+      "details": {
+        "height": "22 inches (male), 21 inches (female)",
+        "weight": "80-100 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Adaptable, Gentle, Social"
+      },
+      "image": "vector_dog_old_english_sheepdog"
+    },
+    "114": {
+      "name": "Otterhound",
+      "details": {
+        "height": "24-27 inches (male), 23-26 inches (female)",
+        "weight": "80-115 pounds",
+        "lifespan": "10-12 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Boisterous, Affectionate, Even Tempered"
+      },
+      "image": "vector_dog_otterhound"
+    },
+    "115": {
+      "name": "Papillon",
+      "details": {
+        "height": "8-11 inches",
+        "weight": "3-10 pounds",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Alert, Intelligent"
+      },
+      "image": "vector_dog_papillon"
+    },
+    "116": {
+      "name": "Parson Russell Terrier",
+      "details": {
+        "height": "13-14 inches",
+        "weight": "13-17 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Lively, Bold, Confident"
+      },
+      "image": "vector_dog_parson_russell_terrier"
+    },
+    "117": {
+      "name": "Pekingese",
+      "details": {
+        "height": "6-9 inches",
+        "weight": "7-14 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children",
+        "temperament": "Opinionated, Good-Natured, Affectionate"
+      },
+      "image": "vector_dog_pekingese"
+    },
+    "118": {
+      "name": "Pembroke Welsh Corgi",
+      "details": {
+        "height": "10-12 inches",
+        "weight": "25-30 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Smart, Alert, Affectionate"
+      },
+      "image": "vector_dog_pembroke_welsh_corgi"
+    },
+    "119": {
+      "name": "Petit Basset Griffon Vendeen",
+      "details": {
+        "height": "13-15 inches",
+        "weight": "25-40 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Outgoing, Alert"
+      },
+      "image": "vector_dog_petit_basset_griffon_vendeen"
+    },
+    "120": {
+      "name": "Pharaoh Hound",
+      "details": {
+        "height": "21-25 inches",
+        "weight": "45-65 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Sociable, Playful"
+      },
+      "image": "vector_dog_pharaoh_hound"
+    },
+    "121": {
+      "name": "Plott",
+      "details": {
+        "height": "20-25 inches (male), 20-23 inches (female)",
+        "weight": "50-60 pounds (male), 40-55 pounds (female)",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Bold, Loyal, Intelligent"
+      },
+      "image": "vector_dog_plott"
+    },
+    "122": {
+      "name": "Pointer",
+      "details": {
+        "height": "25-28 inches (male), 23-26 inches (female)",
+        "weight": "55-75 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Even Tempered, Energetic, Gentle"
+      },
+      "image": "vector_dog_pointer"
+    },
+    "123": {
+      "name": "Pomeranian",
+      "details": {
+        "height": "6-7 inches",
+        "weight": "3-7 pounds",
+        "lifespan": "12-16 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Extroverted, Intelligent, Sociable"
+      },
+      "image": "vector_dog_pomeranian"
+    },
+    "124": {
+      "name": "Poodle",
+      "details": {
+        "height": "Standard: 15 inches and above, Miniature: 10-15 inches, Toy: 10 inches and under",
+        "weight": "Standard: 45-70 pounds, Miniature: 15-17 pounds, Toy: 5-9 pounds",
+        "lifespan": "10-18 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Intelligent, Active, Alert"
+      },
+      "image": "vector_dog_poodle"
+    },
+    "125": {
+      "name": "Portuguese Water Dog",
+      "details": {
+        "height": "Male: 20-23 inches, Female: 17-21 inches",
+        "weight": "Male: 42-60 pounds, Female: 35-50 pounds",
+        "lifespan": "10-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Docile, Impressive, Brave"
+      },
+      "image": "vector_dog_portuguese_water_dog"
+    },
+    "126": {
+      "name": "Saint Bernard",
+      "details": {
+        "height": "28-30 inches (male), 26-28 inches (female)",
+        "weight": "140-180 pounds (male), 120-140 pounds (female)",
+        "lifespan": "8-10 years",
+        "goodWith": "Children",
+        "temperament": "Gentle, Friendly, Outgoing"
+      },
+      "image": "vector_dog_saint_bernard"
+    },
+    "127": {
+      "name": "Silky Terrier",
+      "details": {
+        "height": "9-10 inches",
+        "weight": "8-10 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Friendly, Responsive, Inquisitive"
+      },
+      "image": "vector_dog_silky_terrier"
+    },
+    "128": {
+      "name": "Smooth Fox Terrier",
+      "details": {
+        "height": "15.5 inches (male), 15 inches (female)",
+        "weight": "17 pounds",
+        "lifespan": "10-13 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Fearless, Alert, Friendly"
+      },
+      "image": "vector_dog_smooth_fox_terrier"
+    },
+    "129": {
+      "name": "Tibetan Mastiff",
+      "details": {
+        "height": "26 inches and above (male), 24 inches and above (female)",
+        "weight": "90-150 pounds (male), 70-120 pounds (female)",
+        "lifespan": "10-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Independent, Strong Willed, Aloof"
+      },
+      "image": "vector_dog_tibetan_mastiff"
+    },
+    "130": {
+      "name": "Welsh Springer Spaniel",
+      "details": {
+        "height": "Male: 18-19 inches, Female: 17-18 inches",
+        "weight": "Male: 45-55 pounds, Female: 35-45 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Gentle, Adaptable"
+      },
+      "image": "vector_dog_welsh_springer_spaniel"
+    },
+    "131": {
+      "name": "Wirehaired Pointing Griffon",
+      "details": {
+        "height": "20-24 inches",
+        "weight": "50-70 pounds",
+        "lifespan": "12-14 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Loyal, Gentle, Vigilant"
+      },
+      "image": "vector_dog_wirehaired_pointing_griffon"
+    },
+    "132": {
+      "name": "Xoloitzcuintli",
+      "details": {
+        "height": "Toy: 9-14 inches, Miniature: 14-18 inches, Standard: 18-23 inches",
+        "weight": "Toy: 5-15 pounds, Miniature: 15-30 pounds, Standard: 30-55 pounds",
+        "lifespan": "12-15 years",
+        "goodWith": "Children",
+        "temperament": "Loyal, Alert, Calm"
+      },
+      "image": "vector_dog_xoloitzcuintli"
+    },
+    "133": {
+      "name": "Yorkshire Terrier",
+      "details": {
+        "height": "7-8 inches",
+        "weight": "7 pounds",
+        "lifespan": "11-15 years",
+        "goodWith": "Children, Dogs",
+        "temperament": "Affectionate, Sprightly, Tomboyish"
+      },
+      "image": "vector_dog_yorkshire_terrier"
+    }
+
+  }
+}

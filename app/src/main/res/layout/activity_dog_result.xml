@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity_DogResult">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/ibBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/design_back_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/details" />
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/product_sans_bold"
+            android:text="Details"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/savetoHistory"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/details"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/vector_btn_download">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/vector_bg_dogresult"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/details" />
+
+        <ImageView
+            android:id="@+id/iv_dogIcon"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/vector_shih_tzu"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:background="@drawable/design_rounded_darkgray_bg"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_dogIcon"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView">
+
+            <TextView
+                android:id="@+id/tv_dogName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design_rounded_darkgray_bg"
+                android:fontFamily="@font/product_sans_bold"
+                android:gravity="center"
+                android:text="Shih Tzu"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_percentage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design_rounded_darkgray_bg"
+                android:fontFamily="@font/product_sans_regular"
+                android:gravity="center"
+                android:text="43.7 Match"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_dogName">
+
+            </TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/design_rounded_softgreen_bg"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_dogIcon"
+            app:layout_constraintVertical_bias="0.0">
+
+
+            <TextView
+                android:id="@+id/tv_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Height"
+                android:textColor="@color/gray"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_height_num"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Weight"
+                android:textColor="@color/gray"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_weight_num"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_height_num">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_weight_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/product_sans_bold"
+                android:gravity="center"
+                android:text="9-16 lb"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_lifespan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_weight">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_lifespan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Lifespan"
+                android:textColor="@color/gray"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_lifespan_num"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_weight_num">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_lifespan_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:gravity="center"
+                android:text="10-18 years"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_lifespan">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_height_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:gravity="center"
+                android:text="9-10.5 in"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_weight"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_height">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/design_rounded_softblue_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Good With"
+                android:textColor="@color/gray"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_goodWith"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_goodWith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="Children, Senior, Dogs, Cats"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Temperament"
+                android:textColor="@color/gray"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_temperament"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_goodWith">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_temperament"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="Friendly, Outgoing, Playful"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LLresult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView4"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/vector_wrong"></com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:fontFamily="@font/product_sans_bold"
+            android:gravity="center"
+            android:text="@string/failed_result_text"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView4"
+            app:layout_constraintStart_toStartOf="@+id/lottieAnimationView4"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView4" />
+
+        <Button
+            android:id="@+id/btn_tryAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/design_green_button"
+            android:fontFamily="@font/product_sans_bold"
+            android:text="Try Again"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tasteResult" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

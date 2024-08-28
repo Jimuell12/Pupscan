@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/design_rounded_softgreen_bg">
+
+    <ImageView
+        android:id="@+id/iv_dogIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/vector_shih_tzu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_dogName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="@font/product_sans_bold"
+        android:text="dogName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/iv_dogIcon"
+        app:layout_constraintTop_toTopOf="@+id/iv_dogIcon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/product_sans_regular"
+        android:text="Height:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tv_dogName"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dogName" />
+
+    <TextView
+        android:id="@+id/tv_height_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="@font/product_sans_bold"
+        android:text="9-10.5 in"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/product_sans_regular"
+        android:text="Weight:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/tv_weight_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="@font/product_sans_bold"
+        android:text="9-16 lb"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/product_sans_regular"
+        android:text="Lifespan:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/tv_lifespan_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="@font/product_sans_bold"
+        android:text="10-18 years"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

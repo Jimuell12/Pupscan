@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_BCS_Calculator"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:id="@+id/ibBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/design_back_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/details" />
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_bold"
+            android:text="Details"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans_regular"
+        android:text="Choose breed"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/black"
+        android:textSize="24dp"/>
+
+    <Spinner
+        android:id="@+id/breedSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans_regular"
+        android:text="Gender"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"
+        android:textSize="24dp"/>
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans_regular"
+        android:text="Weight"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/black"
+        android:textSize="24dp"/>
+    
+    <EditText
+        android:id="@+id/weightEditText"
+        android:hint="Enter Weight in kg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp">
+    </EditText>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Results:"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/black"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:id="@+id/bcsscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Your dog scored 1 in BCS"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/fern_100"
+        android:textSize="24dp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </View>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_gravity="center"
+        android:id="@+id/bcsImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:scaleType="fitXY"
+        app:shapeAppearance="@style/rounded_image"
+        android:src="@drawable/vector_bcs_1">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </View>
+
+    <Button
+        android:id="@+id/savetohistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Save to History"
+        android:textAllCaps="true"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/product_sans_bold"
+        android:textSize="16dp"
+        android:layout_marginRight="16dp"></Button>
+</LinearLayout>

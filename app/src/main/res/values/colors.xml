@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="mint_50">#B398FB98</color>
+    <color name="gray">#808080</color>
+
+    <color name="dark_gray">#252525</color>
+    <color name="soft_green">#ddf8e4</color>
+    <color name="soft_blue">#e1ecf9</color>
+
+    //Emotion Colors
+    <color name="fern_100">#5DBB63</color>
+    <color name="clover_lime">#FCE883</color>
+    <color name="red_orange">#EF4136</color>
+    <color name="corn_blue">#6495ED</color>
+</resources>
